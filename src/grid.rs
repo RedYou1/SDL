@@ -177,7 +177,7 @@ impl<T> UserControl for Grid<T> {
             let remain_height = surface.height() - self.static_y;
             if remain_width < 0. || remain_height < 0. {
                 return Err(format!(
-                    "Not enough space for grid: {remain_width}x{remain_height}"
+                    "Not enough space: requested {}x{} in a grid of {}x{}",self.static_x,self.static_y,surface.width(),surface.height()
                 ));
             }
 
