@@ -1,11 +1,12 @@
 [package]
 name = "red-sdl"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 resolver = "2"
 repository = "https://github.com/RedYou1/sdl"
 description = "sdl with grid layout and window management to help build apps or video game."
 license = "Apache-2.0"
+categories = ["gui", "graphics"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
